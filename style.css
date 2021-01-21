@@ -386,7 +386,7 @@ z-index 사용시 같은위치에서 사용해야 함 ex) position언급 유무 
 #footer{
     position:absolute;
     right: 200px;
-    bottom: -350px;
+    bottom: -800px;
 }
 
 .icon2{
