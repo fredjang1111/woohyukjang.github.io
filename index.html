@@ -1,11 +1,285 @@
-<!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-<meta charset="utf-8">
-<title>깃허브 제작</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교촌치킨</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-<h1> Github Page 연습</h1>
-<p> 잘 나온다!</p>
+    <div id="wrap">
+        <div id="header">
+          <div class="inner">
+            <div class="topFamLink">
+              <a href="http://www.kyochon.com/main/" class="active"> 교촌치킨</a> 
+              <a href="http://www.kyochonfnb.com/main/"> 교촌F&B</a>
+            </div>    
+            <div id="sua">
+              <div class="link">
+                  <a href="http://www.kyochon.com/cs/faq.asp"> 고객센터</a>
+                  <img src="http://www.kyochon.com/images/common/line_gnb.gif" height="12" alt="">
+                  <a href="http://www.kyochon.com/etc/sitemap.asp"> 사이트맵</a>
+                  <img src="http://www.kyochon.com/images/common/line_gnb.gif" height="12" alt="">
+                  <a href="http://www.kyochonfnb.com/franchise/about.asp"> 가맹점 개설안내</a> 
+              </div>
+            </div>
+            <h1 class="season">
+                <img src="http://www.kyochon.com/images/common/h1_logo_new.png" alt="KyoChon 1991">
+            </h1>
+            <div id="gnb">
+                <u1 class="c_box">
+                    <li class="gnb01">
+                        <a href="http://www.kyochon.com/menu/chicken.asp" class="gnbBtn">메뉴</a>
+                        <img src="http://www.kyochon.com/images/common/line_footer02.gif">
+                    </li>
+                    <li class="gnb02">
+                        <a href="http://www.kyochon.com/shop/domestic.asp" class="gnbBtn">매장안내</a>
+                        <img src="http://www.kyochon.com/images/common/line_footer02.gif">
+                    </li>
+                    <li class="gnb03">
+                        <a href="http://www.kyochon.com/event/ing.asp" class="gnbBtn">이벤트</a>
+                        <img src="http://www.kyochon.com/images/common/line_footer02.gif">
+                    </li>
+                    <li class="gnb04">
+                        <a href="http://www.kyochon.com/with/recipe.asp" class="gnbBtn">with교촌</a>
+                        <img src="http://www.kyochon.com/images/common/line_footer02.gif">
+                    </li>
+                    <li class="gnb05">
+                        <a href="http://www.kyochon.com/company/about.asp#intro" class="gnbBtn">교촌스토리</a>
+                        <img src="http://www.kyochon.com/images/common/line_footer02.gif">
+                    </li>
+                    <li class="gnb06">
+                        <a href="https://order.kyochon.com/member/login" _onclick="window.open('/online/popup_20171121.asp', 'orderInfo', 'width=430,height=332');" class="gnbBtn">온라인주문</a>
+
+                    </li>
+                    
+
+                </u1>
+            </div>
+        </div>
+        </div>
+        <div id="container">
+            <div class="mTopBox">
+                <div class="leftArea">
+                    <img src="http://www.kyochon.com/uploadFiles/TB_POPUP/PC_2.jpg" alt="">
+                </div>
+                <div class="rightArea">
+                    <div class="onlineBoxTy">
+					<dl>
+						<dt>온라인주문</dt>
+						<dd><a href="https://order.kyochon.com/member/login;" _onclick="window.open('/online/popup_20171121.asp', 'orderInfo', 'width=430,height=332');" class="bs btn mainBtn01">주문하기</a></dd>
+                    </dl>
+                    <img src="http://www.kyochon.com/images/main/thumb_online.jpg" class="w100"alt="">
+                    </div>  
+                    <div class="giftBoxTy">
+                        <dl>
+                            <dt>상품권구매</dt>
+                            <dd><a href="http://www.kyochon.com/menu/gift.asp" class="bs btn mainBtn01">구매하기</a></dd>
+                        </dl>
+                        <img src="http://www.kyochon.com/images/main/thumb_gift.jpg" class="w100" alt="">
+                    </div>        
+                </div>
+            </div>
+            <div class="mMiddleBox">
+                <div class="lBox">
+                    <div class="bestArea">
+                        <p class="icon"><img src="http://www.kyochon.com/images/main/icon_bestMenu.png" alt="Best Menu"></p>
+                            <a href="https://order.kyochon.com/member/login"><img src="http://www.kyochon.com/uploadFiles/TB_POPUP/201211_best.jpg" alt="BEST MENU 리얼후라이드"></a>
+                    </div>
+                    <div class="hotArea">
+                        <p class="icon"><img src="http://www.kyochon.com/images/main/icon_hotMenu.png" alt="Hot Menu"></p>                        
+                        <a href="https://order.kyochon.com/member/login"><img src="http://www.kyochon.com/uploadFiles/TB_POPUP/201211_hot.jpg" alt="HOT MENU 교촌시그니쳐순살셋트"></a>
+                    </div>
+                </div>
+                <div class="cBox pBox">
+                    <p class="icon"><img src="http://www.kyochon.com/images/main/icon_shopSch.gif" alt="Store Search"></p>
+                    <p class="tit">매장명 또는 지역을 입력해주세요.</p>
+                    <p class="icon2"><img src="http://www.kyochon.com/images/main/img_shopSch.png" alt="매장 사진"></p>
+    
+                    <div class="form">
+                        <form name="searchMain" method="post" action="">
+                        <input type="text" id="searchShop" name="searchShop" title="매장명 또는 지역을 입력" value="">
+                        <a href="" class="bsBtn mainBtn03">검색</a>
+                        </form>
+                    </div>
+                    <div class="storeArea">
+                        <p>&nbsp;</p>
+                        <div class="list">
+                            <ul id="searchList">
+                                <li>
+                                    <dl>
+                                        <dt>교촌치킨 역삼1호점
+                                            <a href="http://www.kyochon.com/shop/domestic.asp?sido1=0&sido2=0&txtsearch=%EC%97%AD%EC%82%BC1%ED%98%B8" class="bs btn mainBtn04">지도보기</a>
+                                            <a href="http://www.kyochon.com/shop/domestic_sch.asp?shop_id=119" class="bs btn mainBtn04">상세보기</a>
+                                        </dt>
+                                        <dd>02-566-9942  <span>|</span>  서울특별시 강남구 역삼로14길 12 (역삼동)</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="rBox pBox">
+                    <p class="icon"><img src="http://www.kyochon.com/images/main/icon_news.gif" alt="KyoChon News"></p>
+                    <ul class="list">
+                    
+                        <li>
+                            <a href="http://www.kyochon.com/cs/notice_view.asp?seq=653">
+                            
+                                <img src="http://www.kyochon.com/uploadFiles/TB_BOARD/%EB%A1%9C%EA%B3%A0(0).png" alt="온라인 주문 및 멤버십 서비스 변경 안내(일정 .." width="75px" height="50">
+                            
+                                <dl>
+                                    <dt>온라인 주문 및 멤버십 서비스 변경 안내(일정 ..</dt>
+                                    <dd>2021-01-08</dd>
+                                </dl>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="http://www.kyochon.com/cs/notice_view.asp?seq=651">
+                            
+                                <img src="http://www.kyochon.com/uploadFiles/TB_BOARD/[%EA%B5%90%EC%B4%8C_%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%9E%90%EB%A3%8C]%20%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8,%20%EB%B9%84%EB%8C%80%EB%A9%B4%20%EA%B5%90%EC%9C%A1%20%ED%99%9C%EC%84%B1%ED%99%94%EB%A1%9C%20QSC%20%EA%B0%95%ED%99%94%20%EB%B0%95%EC%B0%A8.jpg" width="75px" height="50">
+                            
+                                <dl>
+                                    <dt>교촌치킨, 비대면 교육 활성화로 QSC 강화 박..</dt>
+                                    <dd>2020-12-18</dd>
+                                </dl>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="http://www.kyochon.com/cs/notice_view.asp?seq=650">
+                            
+                                <img src="http://www.kyochon.com/uploadFiles/TB_BOARD/[%EA%B5%90%EC%B4%8C_%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%9E%90%EB%A3%8C]%20%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8,%20%EC%8B%A0%EB%A9%94%EB%89%B4%20%EA%B5%90%EC%B4%8C%EB%A6%AC%EC%96%BC%ED%9B%84%EB%9D%BC%EC%9D%B4%EB%93%9C%20%EC%B6%9C%EC%8B%9C(1).jpg" width="75px" height="50">
+                            
+                                <dl>
+                                    <dt>교촌치킨, 신메뉴 교촌리얼후라이드 출시</dt>
+                                    <dd>2020-12-18</dd>
+                                </dl>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="http://www.kyochon.com/cs/notice_view.asp?seq=649">
+                            
+                                <img src="http://www.kyochon.com/uploadFiles/TB_BOARD/[%EA%B5%90%EC%B4%8C_%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%9E%90%EB%A3%8C]%20%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8,%20%EC%95%84%EB%8F%99%ED%95%99%EB%8C%80%20%EC%98%88%EB%B0%A9%20%EA%B5%AD%EB%AF%BC%EA%B0%90%EC%8B%9C%EB%8B%A8%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%BA%A0%ED%8E%98%EC%9D%B8%20%EC%A7%84%ED%96%89_dd.jpg" alt="교촌치킨, 아동학대 예방 국민감시단 온라인 캠페.." width="75px" height="50">
+                            
+                                <dl>
+                                    <dt>교촌치킨, 아동학대 예방 국민감시단 온라인 캠페..</dt>
+                                    <dd>2020-12-18</dd>
+                                </dl>
+                            </a>
+                        </li>
+                    
+                    </ul>
+                    <a href="http://www.kyochon.com/cs/notice.asp" class="more"><img src="http://www.kyochon.com/images/main/btn_more.png" alt="더보기"></a>
+                </div>
+            </div>
+            <div class="mBtmBox">
+                <div class="leftArea">
+                    <div class="tbBox">
+                        <div class="box01">
+                            <dl>
+                                <dt>가맹점 개설 안내</dt>
+                                <dd>교촌 F&amp;B의 가족으로<br>모시고자 합니다.</dd>
+                            </dl>
+                            <a href="http://www.kyochonfnb.com/franchise/about.asp" class="bs btn mainBtn02" target="_blank" title="새창열림">자세히보기
+                            </a>
+                        </div>
+                        <div class="box02">
+                            <div class="cont">
+                                <div class="icon">
+                                    <img src="http://www.kyochon.com/images/main/bg_m_s_icon01.png" alt="개설절차">
+                                </div>
+                                <div class="txt">
+                                    <a href="http://www.kyochonfnb.com/franchise/about02.asp" target="_blank" title="새창열림">개설절차
+                                    </a>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="box03">
+                            <div class="cont">
+                                <div class="icon">
+                                    <img src="http://www.kyochon.com/images/main/bg_m_s_icon02.png" alt="인테리어">
+                                </div>
+                                <div class="txt">
+                                </div>
+                                <a href="http://www.kyochonfnb.com/franchise/about03.asp" target="_blank" title="새창열림">인테리어
+                                </a>
+                            </div>
+                        </div>
+                        <div class="box04">
+                            <div class="cont">
+                                <div class="icon"><img src="http://www.kyochon.com/images/main/bg_m_s_icon03.png" alt="지역별 상담창구">
+                                </div>
+                                <div class="txt">
+                                </div>
+                                <a href="http://www.kyochonfnb.com/franchise/district.asp" target="_blank" title="새창열림">지역별 상담창구
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightArea">
+                        <div class="tdBox">
+                            <div class="snsBox">
+                                <a href="https://www.facebook.com/kyochon1991" title="새창열림" target="_blank">
+                                    <img src="http://www.kyochon.com/images/main/social_facebook.png" alt="facebook 공유하기">
+                                </a>
+                                <a href="https://www.instagram.com/kyochon_official" title="새창열림" target="_blank">
+                                    <img src="http://www.kyochon.com/images/main/social_instagram.png" alt="instagram 공유하기">
+                                </a>
+                                <a href="https://www.youtube.com/channel/UChcWXp8uJbcfq9EAIHp_bUw" title="새창열림" target="_blank">
+                                    <img src="http://www.kyochon.com/images/main/social_youtube.png" alt="youtube">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+      
+        </div>
+        <div id="footer">
+                <div class="footCont">
+                    <div class="topLink">
+                        <span class="link">
+                            <a href="http://www.kyochon.com/etc/clause.asp">이용약관 |</a>
+                            <a href="http://www.kyochon.com/etc/privacy.asp" class="privacy">개인정보처리방침 |</a>
+                            이메일 무단수집거부 |
+                            <a href="http://www.kyochon.com/etc/location.asp">찾아오시는 길</a>
+                        </span>
+                        <a href="https://www.facebook.com/kyochon1991" target="_blank" title="새창열림">
+                            <img src="http://www.kyochon.com/images/common/social_facebook.gif" alt="교촌 facebook 바로가기">
+                        </a>
+                        <a href="https://www.instagram.com/kyochon_official" target="_blank" title="새창열림">
+                            <img src="http://www.kyochon.com/images/common/social_instagram.gif" alt="교촌 instagram 바로가기">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UChcWXp8uJbcfq9EAIHp_bUw" target="_blank" title="새창열림">
+                            <img src="http://www.kyochon.com/images/common/social_youtube.gif" alt="교촌 youtube 바로가기">
+                        </a>
+                        <img src="http://www.kyochon.com/images/common/call_tel.gif" alt="전화주문 1577-1991">
+                        <a href="http://www.kyochonfnb.com/member" target="_blank" class="bissMem" title="새창열림"><img src="http://www.kyochon.com/images/common/fnbmember.gif" alt="가맹점 공간 바로가기"></a>
+                    </div>
+                    <div class="textBox">
+                        <span>사업장소재지 : 39852 경상북도 칠곡군 가산면 송신로 78 | </span>
+                        <span>본사(오산교육원)주소 : 18150 경기도 오산시 동부대로 436번길 55-18 | </span>
+                        <span>상호명 : 교촌에프앤비(주) | </span>
+                        <span>대표이사 : 소진세, 황학수 | </span><br>
+                        <span>대표번호 : 031-371-3500 | </span>
+                        <span>소비자상담번호 : 080-320-3000 | </span>
+                        <span>사업자등록번호 : 513-81-16574 | </span>
+                        <span>통신판매업신고 : 2012-경상북도칠곡-00023호 | </span>
+                        <span>개인정보보호책임자 : 윤순도 | </span>
+                        <span>영업시간 : 12:00~23:30</span>
+                    </div>
+                    <address>Copyright 2015 © KYOCHON F&amp;B. All rights reserved.</address>
+                </div>
+            </div>
+      
+        </div>
+      </div>
 </body>
 </html>

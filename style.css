@@ -1,0 +1,397 @@
+#wrap{
+    margin-left:250px;
+    margin-right:250px;
+    height:1268.55px;
+    
+}
+#header>.inner>.topFamLink {
+    position: absolute;
+    left: 270px;
+    top: 0;
+    display: inline-block;
+          }
+#header>.inner>.topFamLink>a.active {
+    background-color: #b99764;
+    color: #fff;
+
+}
+   #header>.inner>.topFamLink>a {
+    width: 99px;
+    height: 27px;
+    margin-right: 2px;
+    background-color: #fff;
+    border: 1px solid #b99764;
+    border-top: 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 27px;
+    color: #b99764;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+   }
+   #header>.inner>#sua {
+    position: absolute;
+    right: 200px;
+    top: 0;
+   }
+   #header>.inner>#sua>.link {
+    padding: 25px 0 0;
+   }
+   #header>.inner>#sua>.link>a {
+    padding: 0 7px 0 8px;
+    font-size: 12px;
+    line-height: 1;
+    color: #9c8e73;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+}
+#header>.inner>#sua>.link>img {
+    padding: 0 7px 0 8px;
+    font-size: 12px;
+    line-height: 1;
+    color: #9c8e73;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.inner>#gnb {
+    height: 40px;
+    font-size:20px;
+    position: absolute;
+    right: 50px;    
+    top: 75px;
+    display: inline-block;
+    list-style:none;
+}
+.c_box a{
+    color:black;
+}
+.c_box{
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    right:150px;
+}
+/* display:flex;
+    justify-content: space-between;
+    이거쓰면 한줄로 쉽게 된다 꼭 기억해둬라 */
+
+.c_box img{
+    margin-left : 10px;
+    margin-right: 10px;
+    height:15px;
+
+}
+  
+#gnb ul li {
+    text-decoration: none;
+    padding: 0 31px 0 31px;
+    display: inline-block;
+    vertical-align: top;
+}
+.mTopBox {
+    display: inline-block;
+    width: 1220px;
+    height: 450px;
+    margin-left: 10px;
+}
+.mTopBox>.leftArea{
+    display: inline-block;
+    width: 813.74px;
+    height: 450px;
+    float: left;
+    box-sizing: border-box;
+}
+.mTopBox>.rightArea{
+    display: inline-block;
+    width: 406.25px;
+    height: 450px;
+    float: left;
+    box-sizing: border-box;
+    position:relative;
+    left:146px;
+    bottom:76px;
+}
+.mTopBox>.rightArea>.onlineboxTy{
+    float:right;
+    width: 406.25px;
+    height: 250px;
+    box-sizing: border-box;
+    position:relative;
+    bottom:9px;
+}
+.mTopBox>.rightArea>.giftboxTy{
+    float:right;
+    width: 406.25px;
+    height: 250px;
+    box-sizing: border-box;
+    position:relative;
+    bottom:34.5px;
+}
+.mTopBox>.rightArea>.onlineBoxTy>dl>dt{
+    position:relative;
+    top:90px;
+    left:10px;
+    color:cornsilk;
+    font-weight:bold;
+    font-size:x-large;
+}
+.mTopBox>.rightArea>.onlineBoxTy>dl>dd>a{
+    position:relative;
+    top:120px;
+    right: 30px;
+    color:cornsilk;
+    font-weight:bold;
+    text-decoration:none;
+    border: 2px solid cornsilk;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.mTopBox>.rightArea>.giftBoxTy>dl>dt{
+    position:relative;
+    top:90px;
+    left:10px;
+    color:cornsilk;
+    font-weight:bold;
+    font-size:x-large;
+}
+.mTopBox>.rightArea>.giftBoxTy>dl>dd>a{
+    position:relative;
+    top:120px;
+    right: 30px;
+    color:cornsilk;
+    font-weight:bold;
+    text-decoration:none;
+    border: 2px solid cornsilk;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.mMiddleBox{
+    margin-left: 10px;
+    position: relative;
+    bottom:51px;
+}
+.lBox>.bestArea>.icon{
+    position: relative;
+    top: 50px;
+    left:15px;
+}
+.lBox>.hotArea{
+    position:relative;
+    bottom:51px;
+}
+.lBox>.hotArea>.icon{
+    position: relative;
+    top: 50px;
+    left:15px;
+}
+.mMiddleBox>.cBox{
+    position: relative;
+    left:480px;
+    height:331px;
+    bottom:402px;
+    background-color: lightgoldenrodyellow;
+    width:440px;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.tit{
+    position: relative;
+    left:5px;
+    font-weight:bold;
+    font-size:120%;
+}
+.form{
+    position:relative;
+    left:50px;
+    color:cornsilk;
+    font-weight:bold;
+    text-decoration:none;
+}
+.searchlist{
+    list-style: none;
+}
+.rBox{
+    position: relative;
+    left:960px;
+    height:330px;
+    bottom:752px;
+    background-color: lightgreen;
+    width:440px;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.list ul{
+    list-style: none;
+}
+.list li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.bsBtn{
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    height:37px;
+    position:relative;
+    right:46px;
+    bottom:28px;
+}
+#searchShop{
+    width:350px;
+    height:37px;
+    position:relative;
+    bottom:30px;
+    right:40px;
+}
+#searchList{
+    font-size: 15px;
+}
+#searchList .bs{
+    border: 2px solid black;
+    background-color:lightgoldenrodyellow;
+    color:black;
+    text-decoration:none;
+    padding:0.5px;
+    padding-left:1px;
+    padding-right:1px;
+    font-size:12px;
+}
+#searchList dd{
+    width:500px;
+    position:relative;
+    right:40px;
+}
+.rBox .list li{
+    position:relative;
+    right:35px;
+}
+.rBox .list dl{
+    color:black;
+    position:relative;
+    bottom:30px;
+    left:90px;
+    font-size:13px;
+    margin:-10
+}   
+.rBox .list dd{
+    position:relative;
+    right: 40px;
+}
+.more{
+    position:relative;
+    left: 430px;
+    bottom:305px;
+}
+.mBtmBox{
+    position:relative;
+    bottom:800px;
+    left:15px;
+}
+.tbBox{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    top:30px;
+}
+.tbBox .bs{
+    border: 2px solid black;
+    color:black;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size:12px;
+    position: relative;
+    top:10px;
+}
+.box01 dt{
+    font-size:20px;
+    font-weight: bolder;
+
+}
+.box01 dd{
+    font-weight: lighter;
+    position: relative;
+    right:40px;
+    top:5px;
+}
+.cont{
+    position: relative;
+    top:10px;
+    right:170px;
+}
+.cont a{
+    color:white;
+    background-color: darkslategrey;
+    border: 1px solid darkslategrey;
+    border-top-right-radius: 9999999999999999999999999999999%;
+    border-bottom-right-radius: 9999999999999999999999999999999%;
+    padding: 20px;
+    position: relative;
+    bottom:60px;
+    left:80px;
+    z-index:1;
+    
+}
+.box04 .cont a{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* 
+z-index는 그림위치의 우선순위 원래 우선순위는 코딩 위치순서기반
+z-index 사용시 같은위치에서 사용해야 함 ex) position언급 유무 뒤 
+ */
+.cont .icon img {
+    position:relative;
+    z-index: 800000000;
+}
+.box03 {
+    position: relative;
+    right:180px;
+}
+.box04{
+    position: relative;
+    right:360px;
+}
+.snsBox{
+    background-color:lightgray;
+    width:340px;
+    height:52px;
+    padding:70px;
+    position: relative;
+    left:955px;
+    bottom:125px;
+}
+.snsBox a{
+    padding:17px;
+    position: relative;
+    left:40px;
+}
+#footer{
+    position:absolute;
+    right: 200px;
+    bottom: -300px;
+}
+
+.icon2{
+    position:relative;
+    left:350px;
+    bottom:50px;
+    margin:0px;
+}
